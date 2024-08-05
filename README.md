@@ -1,12 +1,11 @@
 # Vujas_OhMyZsh
-*Automatic setting of OhMyZsh for my taste*
+*Automatic setting of "OhMyZsh" for my taste*
 
 ---
 
 ##  [Install Oh My Zsh](https://github.com/ohmyzsh/ohmyzsh?tab=readme-ov-file#basic-installation)
 
 ### ⚒️ Manual
-Run the following to set up my working space in the blink of an eye 😉 - ⚠️ Tested on Linux:
 - Check if **zsh** already installed `zsh --version`, and if not install with 
 	```zsh
 	sudo apt install zsh
@@ -24,7 +23,7 @@ Run the following to set up my working space in the blink of an eye 😉 - ⚠�
 	- Replace the previous theme with `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc .`
   	- Follow the prompts for a first-time configuration.
 
-### ⚡One for All (🤖*Automatic Version*)
+### ⚡ One for All (🤖*Automatic Version*)
 - First part:
 	```zsh
 	sudo apt install zsh -y
@@ -42,5 +41,35 @@ Run the following to set up my working space in the blink of an eye 😉 - ⚠�
 	rm ~/zsh_fonts_install.sh
 	rm ~/zsh_set_theme.sh
 	```
+ - Follow the prompts for a first-time configuration.
+
+### 🔥 Running
+- Open the terminal run `zsh`
+	```python
+	if first-time configuration:
+		follow the prompts to set the powerlevel10k theme
+	else:
+		enjoy
+	```
 
 ---
+
+## [Setting Up Plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins-Overview)
+*To use with conda, python, vs code and other*
+
+### ⚒️ Manual
+- Default plugins that I'm using. Open the `~/.zshrc` and add the following line
+	```zsh
+	plugins=(git python conda-env vscode)
+	```
+- To use conda in the zsh console, execute this in the shell
+	```zsh
+	conda init zsh 
+	```
+### 🤖 Automatic Version
+- 🚧👷‍♂️🚧
+
+
+---
+> [!WARNING]
+> Only tested on Linux.
