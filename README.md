@@ -24,7 +24,7 @@ Run the following to set up my working space in the blink of an eye 😉 - ⚠�
 	- Replace the previous theme with `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc .`
   	- Follow the prompts for a first-time configuration.
 
-### ⚡One for All (*Automatic Version*)
+### ⚡One for All (🤖*Automatic Version*)
 - First part:
 	```zsh
 	sudo apt install zsh -y
