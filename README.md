@@ -87,4 +87,6 @@
 
 ---
 > [!NOTE]
-> A variant is to use 👾[starship](https://github.com/starship/starship)
+> Some variants:
+> - 👾[starship](https://github.com/starship/starship)
+> - [Oh My Posh](https://github.com/jandedobbeleer/oh-my-posh)
