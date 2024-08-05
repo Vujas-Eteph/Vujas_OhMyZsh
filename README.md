@@ -48,7 +48,7 @@
 	rm ~/zsh_fonts_install.sh
 	rm ~/zsh_set_theme.sh
 	```
- - Follow the prompts for a first-time configuration.
+ - Follow the prompts for a first-time configuration (or in the zsh shell run `p10k configure` to modify the current layout)
 
 ### 🔥 Running
 - Open the terminal run `zsh`
