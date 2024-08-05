@@ -78,6 +78,10 @@
 	wget https://raw.githubusercontent.com/Vujas-Eteph/Vujas_OhMyZsh/main/zsh_set_plugins.sh -P ~
 	bash ~/zsh_set_plugins.sh
 	rm ~/zsh_set_plugins.sh
+ 	zsh
+ 	conda init zsh
+ 	exit zsh
+ 	zsh
 	```
 
 ---
