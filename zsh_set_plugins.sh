@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the plugins configuration
-plugins_SETTING='plugins=(git python conda-env vscode tmux tmuxinator)'
+plugins_SETTING='plugins=(git python conda-env vscode tmux tmuxinator aliases)'
 ZSHRC_FILE="$HOME/.zshrc"
 
 # Check if the .zshrc file contains any plugins setting
