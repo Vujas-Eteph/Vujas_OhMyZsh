@@ -66,7 +66,7 @@
 ### ⚒️ Manual
 - Default plugins that I'm using. Open the `~/.zshrc` and add the following line
 	```zsh
-	plugins=(git python conda-env vscode tmux tmuxinator)
+	plugins=(git python conda-env vscode tmux tmuxinator aliases)
 	```
 - To use conda in the zsh console, execute this in the shell
 	```zsh
