@@ -24,6 +24,7 @@
   	- Follow the prompts for a first-time configuration.
 
 ### ⚡ One for All (🤖*Automatic Version*)
+*Just copy-pasta each section*
 - First part:
 	```zsh
 	sudo apt install zsh -y
