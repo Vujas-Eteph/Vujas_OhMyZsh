@@ -88,5 +88,5 @@
 ---
 > [!NOTE]
 > Some variants:
-> - 👾[starship](https://github.com/starship/starship)
-> - [Oh My Posh](https://github.com/jandedobbeleer/oh-my-posh)
+> - to Oh My Zsh, check 👾[starship](https://github.com/starship/starship)
+> - to the PowerLevel10K theme, check [Oh My Posh](https://github.com/jandedobbeleer/oh-my-posh)
