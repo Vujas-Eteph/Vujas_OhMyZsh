@@ -33,10 +33,12 @@ Run the following to set up my working space in the blink of an eye 😉 - ⚠�
 - Second part:
 	```zsh
 	wget https://raw.githubusercontent.com/Vujas-Eteph/Vujas_OhMyZsh/main/zsh_fonts_install.sh -P ~
+	wget https://raw.githubusercontent.com/Vujas-Eteph/Vujas_OhMyZsh/main/zsh_set_theme.sh -P ~
+ 
 	bash ~/zsh_fonts_install.sh
 	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-	wget https://raw.githubusercontent.com/Vujas-Eteph/Vujas_OhMyZsh/main/zsh_set_theme.sh -P ~
 	bash ~/zsh_set_theme.sh
+ 
 	rm ~/zsh_fonts_install.sh
 	rm ~/zsh_set_theme.sh
 	```
