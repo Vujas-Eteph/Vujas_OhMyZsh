@@ -73,8 +73,12 @@
 	conda init zsh 
 	```
 ### 🤖 Automatic Version
-- 🚧👷‍♂️🚧
-
+- Run the following:
+	```zsh
+	wget https://raw.githubusercontent.com/Vujas-Eteph/Vujas_OhMyZsh/main/zsh_set_plugins.sh -P ~
+	bash ~/zsh_set_plugins.sh
+	rm ~/zsh_set_plugins.sh
+	```
 
 ---
 > [!WARNING]
