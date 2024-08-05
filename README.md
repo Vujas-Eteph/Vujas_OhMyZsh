@@ -35,7 +35,7 @@
 	wget https://raw.githubusercontent.com/Vujas-Eteph/Vujas_OhMyZsh/main/zsh_fonts_install.sh -P ~
 	wget https://raw.githubusercontent.com/Vujas-Eteph/Vujas_OhMyZsh/main/zsh_set_theme.sh -P ~
 	bash ~/zsh_fonts_install.sh
-- Set the `MesloLGS NF Regular` in the Terminal, VS Code, etc... following the [manual instructions](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#meslo-nerd-font-patched-for-powerlevel10k)
+- Set the `MesloLGS NF Regular` in the Terminal, VS Code, etc... following the [manual instructions](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#meslo-nerd-font-patched-for-powerlevel10k) (⚠️ It's important that you restart the shell here if you want to see the new font in the available options when following the instructions in the site)
 - Third part:
 	```zsh
 	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
