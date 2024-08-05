@@ -1,5 +1,5 @@
 # Vujas_OhMyZsh
-Automatic setting of OhMyZsh for my taste
+*Automatic setting of OhMyZsh for my taste*
 
 ---
 
