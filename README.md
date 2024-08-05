@@ -80,7 +80,11 @@
 	rm ~/zsh_set_plugins.sh
  	conda init zsh
 	```
-
+ 
 ---
 > [!WARNING]
 > Only tested on Linux.
+
+---
+> [!NOTE]
+> A variant is to use 👾[starship](https://github.com/starship/starship)
