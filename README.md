@@ -14,7 +14,7 @@
 	```zsh
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 	```
-- Install the **Nerd Fonts** following the [manual instructions](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#meslo-nerd-font-patched-for-powerlevel10k)
+- Install *and* Set the **Nerd Fonts** following the [manual instructions](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#meslo-nerd-font-patched-for-powerlevel10k)
 - Install the [Powerlevel10k Theme](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
 	```zsh
 	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
@@ -33,8 +33,10 @@
 	```zsh
 	wget https://raw.githubusercontent.com/Vujas-Eteph/Vujas_OhMyZsh/main/zsh_fonts_install.sh -P ~
 	wget https://raw.githubusercontent.com/Vujas-Eteph/Vujas_OhMyZsh/main/zsh_set_theme.sh -P ~
- 
 	bash ~/zsh_fonts_install.sh
+- Set the `MesloLGS NF Regular` in the Terminal, VS Code, etc... following the [manual instructions](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#meslo-nerd-font-patched-for-powerlevel10k)
+- Third part:
+	```zsh
 	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 	bash ~/zsh_set_theme.sh
  
