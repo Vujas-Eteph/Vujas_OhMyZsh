@@ -11,22 +11,34 @@ Run the following to set up my working space in the blink of an eye 😉 - ⚠�
 	```zsh
 	sudo apt install zsh
 	```
-
 - Install **Oh My Zsh**
 	```zsh
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 	```
-
 - Install the **Nerd Fonts** following the [manual instructions](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#meslo-nerd-font-patched-for-powerlevel10k)
-
-
 - Install the [Powerlevel10k Theme](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
 	```zsh
 	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 	```
-
 - Set the PowerLevel10K Theme for Oh My Zsh
 	- Replace the previous theme with `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc .`
-  - Follow the prompts for a first-time configuration.
+  	- Follow the prompts for a first-time configuration.
 
+### ⚡One for All (*Automatic Version*)
+- First part:
+	```zsh
+	sudo apt install zsh -y
+	sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+	```
+- Second part:
+	```zsh
+	wget https://github.com/Vujas-Eteph/Vujas_OhMyZsh/blob/main/fonts_install.sh -P ~
+	bash ~./install_nerd_themes.sh
+	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+	wget https://github.com/Vujas-Eteph/Vujas_OhMyZsh/blob/main/set_theme.sh -P ~
+	bash ~./set_ohmyzsh_theme.sh
+	rm ~./install_nerd_fonts.sh
+	rm ~./set_ohmyzsh_theme.sh
+	```
 
+---
