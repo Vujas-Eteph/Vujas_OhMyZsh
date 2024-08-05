@@ -19,9 +19,7 @@
 	```zsh
 	git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 	```
-- Set the PowerLevel10K Theme for Oh My Zsh
-	- Replace the previous theme with `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc .`
-  	- Follow the prompts for a first-time configuration.
+- Set the PowerLevel10K Theme for Oh My Zsh by replacing the previous theme with `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc .`
 
 ### ⚡ One for All (🤖*Automatic Version*)
 *Just copy-pasta each section*
@@ -48,15 +46,16 @@
 	rm ~/zsh_fonts_install.sh
 	rm ~/zsh_set_theme.sh
 	```
- - Follow the prompts for a first-time configuration (or in the zsh shell run `p10k configure` to modify the current layout)
 
 ### 🔥 Running
 - Open the terminal run `zsh`
 	```python
 	if first-time configuration:
 		follow the prompts to set the powerlevel10k theme
-	else:
-		enjoy
+	elif change p10 configuration:
+		in the zsh shell run `p10k configure` to modify the current layout
+ 	else:
+ 		enjoy
 	```
 
 ---
